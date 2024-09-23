@@ -166,7 +166,10 @@ section {
   
 }
 
-
+.catering {
+    font-size: 18px !important;
+    color: #F58d17;
+}
 /* Navbar */
 .navbar-nav .nav-link.active {
     color: #F58d17;
@@ -190,10 +193,14 @@ section {
     text-align: center;
     color: #fff;
 }
-
+.col-lg-5 {
+    width:47%;
+}
 .intro-text p {
     max-width: 500px;
     margin: 16px auto 0 auto;
+    font-weight: 600;
+    font-size: 18px;
 }
 .intro-text h1 {
     color: #F58d17;
@@ -371,10 +378,66 @@ section {
     border-radius: 100px;
 }
 
-/* Reviews */
-#reviews {
-    background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url(/assets/2.jpg);
+/* 
+Shopping */
+
+
+
+.featured-products {
+    text-align: center;
+    padding: 20px;
+    background-color: #fff;
+    margin: 20px auto;
+    max-width: 1200px;
+
 }
+
+.featured-products h2 {
+    font-size: 2em;
+    margin-bottom: 20px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    color: #333;
+}
+
+.product-grid {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 20px;
+}
+
+.product-item {
+    background-color: #fff;
+    padding: 15px;
+ 
+    border-radius: 5px;
+   
+    flex: 1 1 calc(20% - 20px);
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.product-item img {
+    max-width: 100%;
+    height: auto;
+    margin-bottom: 15px;
+}
+
+.product-item h3 {
+    font-size: 1.2em;
+    margin: 0;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    color: #333;
+}
+
+.product-item .description {
+    font-size: 0.9em
+
+/* Reviews */
+
 .review img {
     width: 75px;
     height: 75px;
